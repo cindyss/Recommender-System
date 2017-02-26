@@ -1,0 +1,3 @@
+mahout recommenditembased --input User_label_raw_input.2.20.17.csv --tempDir /user/cloudera/temp16  --similarityClassname SIMILARITY_LOGLIKELIHOOD --output /user/cloudera/498_Mahout_Apps_Out2.20v9 --numRecommendations 4
+
+hadoop fs -cat /user/cloudera/498_Mahout_Apps_Out2.20v6/part-r-00000
